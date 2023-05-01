@@ -1,0 +1,27 @@
+{
+    "name": "pestrich/graphql-demo",
+    "description": "Тестовое приложение с использованием GraphQL и множества типов, обработчиков и данных",
+    "type": "project",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Vitaly",
+            "email": "bnm9229bnm@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "webonyx/graphql-php": "^15.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
